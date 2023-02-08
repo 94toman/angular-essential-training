@@ -6,7 +6,7 @@ import { Component, Input } from "@angular/core";
   styleUrls: ["./media-item.component.css"],
 })
 export class MediaItemComponent {
-git chec  onDelete() {
+  onDelete() {
     console.log("deleted");
   }
 }
