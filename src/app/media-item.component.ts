@@ -1,8 +1,13 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'mw-media-item',
-  templateUrl: './media-item.component.html',
-  styleUrls: ['./media-item.component.css']
+  selector: "mw-media-item",
+  templateUrl: "./media-item.component.html",
+  styleUrls: ["./media-item.component.scss"],
 })
-export class MediaItemComponent {}
+export class MediaItemComponent {
+  name = "The Redemption";
+  wasWatched() {
+    return true;
+  }
+}
